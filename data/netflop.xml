@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<netflop>
+    <films>
+        <film id="1">
+            <titre>Interstellar</titre>
+            <sortie>2014</sortie>
+            <realisateur>Chripstopher Nolan</realisateur>
+            <description>Le film raconte les aventures d’un groupe d’explorateurs qui utilisent une faille récemment découverte dans l’espace-temps afin de repousser les limites humaines et partir à la conquête des distances astronomiques dans un voyage interstellaire.</description>
+        </film>
+        <film id="2">
+            
+        </film>        
+    </films>
+    <series>
+    </series>
+</netflop>

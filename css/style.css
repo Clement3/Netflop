@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.3rem 16px;
+    text-decoration: none;   
+}
+
+nav ul li a:hover {
+    background-color: #111;
+    color: #e50914;
+}
+
+.active {
+    color: #e50914;
+    background-color: #111;
+}
+
+.bg-home {
+    height: 300px;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/340e2693-4ca5-41b5-9c3c-5b9b9fffe16f/fe7e6475-968c-40a6-bbc7-aa51b4dbc864/FR-en-20180312-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+}
+
+.bg-home h1 {
+    color: #fff;
+    padding-left: 6rem;
+    padding-top: 4rem;
+    margin: 0;
+    font-size: 3em;
+}
+
+.bg-home p {
+    color: #fff;
+    font-size: 2em;
+    padding-left: 6rem;
+}
+
+.category h3 {
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #111;
+}
+
+.medias {
+    margin: 3rem;
+}
+
+.medias ul li {
+    display: inline;
+    padding-left: 1rem;
+}
+
+.voir-media {
+    margin: 3rem;
+    display: flex;
+}
+
+.voir-media .info-img {
+    width: 20%;
+}
+
+.voir-media .info {
+    width: 80%;
+}
